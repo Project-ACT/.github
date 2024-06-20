@@ -1,0 +1,14 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema> .
+
+
+<https://project-act.info/groups/actessellation>
+  a foaf:Group ;
+    foaf:name "Autonomous Cohort Tessellation" ;
+    foaf:member <https://project-act.info/orgs/Project-ACT> .
+
+<https://project-act.info/orgs/Project-ACT>
+  a foaf:Organization ;
+    foaf:name "Project-ACT" ;
+    foaf:maker <https://project-act.info/people/devops> .

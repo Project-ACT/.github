@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <foaf:Group rdf:about="https://project-act.info/groups/actessellation">
+    <foaf:name>Autonomous Cohort Tessellation</foaf:name>
+    <foaf:member>
+      <foaf:Organization rdf:about="https://project-act.info/orgs/Project-ACT">
+        <foaf:name>Project-ACT</foaf:name>
+        <foaf:maker rdf:resource="https://project-act.info/people/devops"/>
+      </foaf:Organization>
+    </foaf:member>
+  </foaf:Group>
+</rdf:RDF>
